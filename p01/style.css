@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+.navcar {
+  background-image: url(./Media/bgtowers.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(0, 28, 55);
+  height: 80vh;
+}
+
+.navbarhead {
+  background-color: rgb(0, 28, 55);
+  opacity: 0.9;
+}
+
+.intro {
+  position: relative;
+  display: flex;
+}
+
+.ring {
+  position: absolute;
+  transform: translate(0, -50%);
+  right: 0;
+  top: 80%;
+}
+
+.learnmore {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  right: 15%;
+  top: 100%;
+}
+
+.cpc {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  right: 5%;
+  top: 75%;
+}
+
+.forline {
+  position: relative;
+}
+
+.yellowline {
+  position: absolute;
+  right: 18%;
+  height: 100%;
+  width: 200px;
+  background-color: rgb(253, 228, 43);
+  z-index: -1;
+}
+
+.forline2 {
+  position: relative;
+}
+
+.yellow2 {
+  position: absolute;
+  left: 18%;
+  height: 100%;
+  width: 200px;
+  background-color: rgb(253, 228, 43);
+  z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    transform: scale(0.5);
+  }
+}
+@media screen and (max-width: 600px) {
+  .ytube {
+    transform: scale(0.7);
+  }
+}
+@media screen and (max-width: 480px) {
+  .ytube {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .yellowline, .yellow2 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
